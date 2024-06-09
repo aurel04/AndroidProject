@@ -82,7 +82,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:tabIndicatorColor="@color/blue"/>
+        app:tabIndicatorColor="@color/darkPurple"
+        app:tabSelectedTextColor="@color/purple"/>
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vpFollow"
